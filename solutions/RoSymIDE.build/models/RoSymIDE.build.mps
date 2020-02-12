@@ -9,6 +9,9 @@
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
     <import index="ynr5" ref="r:1098ef86-3ee3-4d6c-a3ae-9a9b799d4eb0(MetaModelOfComputation.build)" />
+    <import index="ahs" ref="r:0efadf31-fc4f-4802-9ec2-fb68d89deb7b(BlockPortConnector.build)" />
+    <import index="mts6" ref="r:9579812f-12f1-4c7b-93f3-3f573d92d045(Controller.build)" />
+    <import index="cenz" ref="r:43952558-28ac-4066-bf0b-48555bda5854(Component.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -352,6 +355,15 @@
     <node concept="2sgV4H" id="1O1itf12nbo" role="1l3spa">
       <ref role="1l3spb" to="ynr5:1O1itf11d57" resolve="MetaModelOfComputation" />
     </node>
+    <node concept="2sgV4H" id="1O1itf12_2r" role="1l3spa">
+      <ref role="1l3spb" to="ahs:7ptuXdR5HW5" resolve="BlockPortConnector" />
+    </node>
+    <node concept="2sgV4H" id="1O1itf12_2N" role="1l3spa">
+      <ref role="1l3spb" to="mts6:1O1itf1280G" resolve="Controller" />
+    </node>
+    <node concept="2sgV4H" id="1O1itf12CSo" role="1l3spa">
+      <ref role="1l3spb" to="cenz:2RDM3_ZXurU" resolve="Component" />
+    </node>
     <node concept="3jsGME" id="a1TuyYuTRa" role="3989C9">
       <property role="TrG5h" value="mps-tips" />
       <node concept="3jmSaf" id="a1TuyYuTRb" role="3jmSa1" />
@@ -450,6 +462,15 @@
         </node>
         <node concept="3_I8Xc" id="1O1itf12mM0" role="39821P">
           <ref role="3_I8Xa" to="ynr5:1O1itf11d5w" resolve="MetaModelOfComputation.zip" />
+        </node>
+        <node concept="3_I8Xc" id="1O1itf12_39" role="39821P">
+          <ref role="3_I8Xa" to="mts6:1O1itf12815" resolve="controller-dsl.zip" />
+        </node>
+        <node concept="3_I8Xc" id="1O1itf12_3t" role="39821P">
+          <ref role="3_I8Xa" to="ahs:7ptuXdR5HWu" resolve="BlockPortConnector.zip" />
+        </node>
+        <node concept="3_I8Xc" id="1O1itf12CSL" role="39821P">
+          <ref role="3_I8Xa" to="cenz:2RDM3_ZXush" resolve="Component-${current_version}-${build.number}-${version}.zip" />
         </node>
         <node concept="m$_wl" id="a1TuyYuTRM" role="39821P">
           <ref role="m_rDy" node="a1TuyYuTR1" resolve="RoSymIDE" />
