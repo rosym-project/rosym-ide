@@ -8,10 +8,10 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="ynr5" ref="r:1098ef86-3ee3-4d6c-a3ae-9a9b799d4eb0(MetaModelOfComputation.build)" />
     <import index="ahs" ref="r:0efadf31-fc4f-4802-9ec2-fb68d89deb7b(BlockPortConnector.build)" />
     <import index="mts6" ref="r:9579812f-12f1-4c7b-93f3-3f573d92d045(Controller.build)" />
     <import index="cenz" ref="r:43952558-28ac-4066-bf0b-48555bda5854(Component.build)" />
+    <import index="empi" ref="r:3f1a5485-eae3-46de-964a-3276e8b8595b(Algorithm.build)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -272,7 +272,7 @@
       </node>
       <node concept="3_J27D" id="a1TuyYuTQQ" role="2gvbiD">
         <node concept="3Mxwew" id="a1TuyYuTQR" role="3MwsjC">
-          <property role="3MwjfP" value="rosymide" />
+          <property role="3MwjfP" value="rosym-ide" />
         </node>
       </node>
       <node concept="3_J27D" id="a1TuyYuTQS" role="HFo83">
@@ -352,8 +352,8 @@
         </node>
       </node>
     </node>
-    <node concept="2sgV4H" id="1O1itf12nbo" role="1l3spa">
-      <ref role="1l3spb" to="ynr5:1O1itf11d57" resolve="MetaModelOfComputation" />
+    <node concept="2sgV4H" id="6elPPFNFu0P" role="1l3spa">
+      <ref role="1l3spb" to="empi:1byp$lDFZv5" resolve="Algorithm" />
     </node>
     <node concept="2sgV4H" id="1O1itf12_2r" role="1l3spa">
       <ref role="1l3spb" to="ahs:7ptuXdR5HW5" resolve="BlockPortConnector" />
@@ -460,8 +460,8 @@
         <node concept="3_I8Xc" id="a1TuyYuTRL" role="39821P">
           <ref role="3_I8Xa" to="ffeo:1x6h9EwqP32" resolve="mps-make" />
         </node>
-        <node concept="3_I8Xc" id="1O1itf12mM0" role="39821P">
-          <ref role="3_I8Xa" to="ynr5:1O1itf11d5w" resolve="MetaModelOfComputation.zip" />
+        <node concept="3_I8Xc" id="6elPPFNFu1n" role="39821P">
+          <ref role="3_I8Xa" to="empi:1byp$lDFZvF" resolve="algorithm.zip" />
         </node>
         <node concept="3_I8Xc" id="1O1itf12_39" role="39821P">
           <ref role="3_I8Xa" to="mts6:1O1itf12815" resolve="controller-dsl.zip" />
