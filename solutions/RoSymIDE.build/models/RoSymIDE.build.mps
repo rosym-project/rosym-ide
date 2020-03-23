@@ -73,7 +73,9 @@
         <child id="4380385936562148502" name="containerName" index="Nbhlr" />
       </concept>
       <concept id="7389400916848036984" name="jetbrains.mps.build.structure.BuildLayout_Folder" flags="ng" index="398223" />
-      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT" />
+      <concept id="7389400916848136194" name="jetbrains.mps.build.structure.BuildFolderMacro" flags="ng" index="398rNT">
+        <child id="7389400916848144618" name="defaultPath" index="398pKh" />
+      </concept>
       <concept id="7389400916848153117" name="jetbrains.mps.build.structure.BuildSourceMacroRelativePath" flags="ng" index="398BVA">
         <reference id="7389400916848153130" name="macro" index="398BVh" />
       </concept>
@@ -327,6 +329,66 @@
     <node concept="398rNT" id="a1TuyYuTQl" role="1l3spd">
       <property role="TrG5h" value="mps_home" />
     </node>
+    <node concept="398rNT" id="7wiBUqZP0UR" role="1l3spd">
+      <property role="TrG5h" value="algorithm_home" />
+      <node concept="55IIr" id="7wiBUqZP0V1" role="398pKh">
+        <node concept="2Ry0Ak" id="7wiBUqZP0V4" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="7wiBUqZP0V9" role="2Ry0An">
+            <property role="2Ry0Am" value="algorithm-dsl" />
+            <node concept="2Ry0Ak" id="7wiBUqZP0Ve" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="7wiBUqZP0Vj" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="7wiBUqZP0Vo" role="2Ry0An">
+                  <property role="2Ry0Am" value="algorithm-dsl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="7wiBUqZP0VE" role="1l3spd">
+      <property role="TrG5h" value="controller_home" />
+      <node concept="55IIr" id="7wiBUqZP0VV" role="398pKh">
+        <node concept="2Ry0Ak" id="7wiBUqZP0VY" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="7wiBUqZP0W3" role="2Ry0An">
+            <property role="2Ry0Am" value="controller-dsl" />
+            <node concept="2Ry0Ak" id="7wiBUqZP0W8" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="7wiBUqZP0Wd" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="7wiBUqZP0Wi" role="2Ry0An">
+                  <property role="2Ry0Am" value="controller-dsl" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="7wiBUqZP0WF" role="1l3spd">
+      <property role="TrG5h" value="component_home" />
+      <node concept="55IIr" id="7wiBUqZP0X3" role="398pKh">
+        <node concept="2Ry0Ak" id="7wiBUqZP0X6" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="7wiBUqZP0Xb" role="2Ry0An">
+            <property role="2Ry0Am" value="component-dsl" />
+            <node concept="2Ry0Ak" id="7wiBUqZP0Xg" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="7wiBUqZP0Xl" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="7wiBUqZP0Xq" role="2Ry0An">
+                  <property role="2Ry0Am" value="Component" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2sgV4H" id="a1TuyYuTQm" role="1l3spa">
       <ref role="1l3spb" to="ffeo:1diLdO26mQ6" resolve="mpsStandalone" />
       <node concept="398BVA" id="a1TuyYuTQn" role="2JcizS">
@@ -353,12 +415,21 @@
     </node>
     <node concept="2sgV4H" id="6elPPFNFu0P" role="1l3spa">
       <ref role="1l3spb" to="empi:1byp$lDFZv5" resolve="algorithm" />
+      <node concept="398BVA" id="7wiBUqZP0Tf" role="2JcizS">
+        <ref role="398BVh" node="7wiBUqZP0UR" resolve="algorithm_home" />
+      </node>
     </node>
     <node concept="2sgV4H" id="1O1itf12_2N" role="1l3spa">
       <ref role="1l3spb" to="mts6:1O1itf1280G" resolve="controller" />
+      <node concept="398BVA" id="7wiBUqZP0Xv" role="2JcizS">
+        <ref role="398BVh" node="7wiBUqZP0VE" resolve="controller_home" />
+      </node>
     </node>
     <node concept="2sgV4H" id="1O1itf12CSo" role="1l3spa">
       <ref role="1l3spb" to="cenz:2RDM3_ZXurU" resolve="Component" />
+      <node concept="398BVA" id="7wiBUqZP0X_" role="2JcizS">
+        <ref role="398BVh" node="7wiBUqZP0WF" resolve="component_home" />
+      </node>
     </node>
     <node concept="3jsGME" id="a1TuyYuTRa" role="3989C9">
       <property role="TrG5h" value="mps-tips" />
