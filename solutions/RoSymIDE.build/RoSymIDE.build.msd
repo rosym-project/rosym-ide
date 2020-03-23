@@ -13,7 +13,6 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)</dependency>
-    <dependency reexport="false">4af8289a-2a94-435b-a0fb-faaee25165ff(BlockPortConnector.build)</dependency>
     <dependency reexport="false">e9471f54-3a97-4899-af0b-f4791d9ff0c1(Controller.build)</dependency>
     <dependency reexport="false">4691e682-eff5-47bd-bb71-48157bbb8cc7(Component.build)</dependency>
     <dependency reexport="false">c8eb9ca9-64f1-4b49-9730-34f074cf9d5b(Algorithm.build)</dependency>

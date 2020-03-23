@@ -8,7 +8,6 @@
   </languages>
   <imports>
     <import index="ffeo" ref="r:874d959d-e3b4-4d04-b931-ca849af130dd(jetbrains.mps.ide.build)" />
-    <import index="ahs" ref="r:0efadf31-fc4f-4802-9ec2-fb68d89deb7b(BlockPortConnector.build)" />
     <import index="mts6" ref="r:9579812f-12f1-4c7b-93f3-3f573d92d045(Controller.build)" />
     <import index="cenz" ref="r:43952558-28ac-4066-bf0b-48555bda5854(Component.build)" />
     <import index="empi" ref="r:3f1a5485-eae3-46de-964a-3276e8b8595b(Algorithm.build)" />
@@ -353,13 +352,10 @@
       </node>
     </node>
     <node concept="2sgV4H" id="6elPPFNFu0P" role="1l3spa">
-      <ref role="1l3spb" to="empi:1byp$lDFZv5" resolve="Algorithm" />
-    </node>
-    <node concept="2sgV4H" id="1O1itf12_2r" role="1l3spa">
-      <ref role="1l3spb" to="ahs:7ptuXdR5HW5" resolve="BlockPortConnector" />
+      <ref role="1l3spb" to="empi:1byp$lDFZv5" resolve="algorithm" />
     </node>
     <node concept="2sgV4H" id="1O1itf12_2N" role="1l3spa">
-      <ref role="1l3spb" to="mts6:1O1itf1280G" resolve="Controller" />
+      <ref role="1l3spb" to="mts6:1O1itf1280G" resolve="controller" />
     </node>
     <node concept="2sgV4H" id="1O1itf12CSo" role="1l3spa">
       <ref role="1l3spb" to="cenz:2RDM3_ZXurU" resolve="Component" />
@@ -464,13 +460,10 @@
           <ref role="3_I8Xa" to="empi:1byp$lDFZvF" resolve="algorithm.zip" />
         </node>
         <node concept="3_I8Xc" id="1O1itf12_39" role="39821P">
-          <ref role="3_I8Xa" to="mts6:1O1itf12815" resolve="controller-dsl.zip" />
-        </node>
-        <node concept="3_I8Xc" id="1O1itf12_3t" role="39821P">
-          <ref role="3_I8Xa" to="ahs:7ptuXdR5HWu" resolve="BlockPortConnector.zip" />
+          <ref role="3_I8Xa" to="mts6:1O1itf12815" resolve="controller.zip" />
         </node>
         <node concept="3_I8Xc" id="1O1itf12CSL" role="39821P">
-          <ref role="3_I8Xa" to="cenz:2RDM3_ZXush" resolve="Component-${current_version}-${build.number}-${version}.zip" />
+          <ref role="3_I8Xa" to="cenz:2RDM3_ZXush" resolve="Component.zip" />
         </node>
         <node concept="m$_wl" id="a1TuyYuTRM" role="39821P">
           <ref role="m_rDy" node="a1TuyYuTR1" resolve="RoSymIDE" />
