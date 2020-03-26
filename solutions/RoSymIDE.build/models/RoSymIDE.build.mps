@@ -273,7 +273,7 @@
       </node>
       <node concept="3_J27D" id="a1TuyYuTQQ" role="2gvbiD">
         <node concept="3Mxwew" id="a1TuyYuTQR" role="3MwsjC">
-          <property role="3MwjfP" value="rosym-ide" />
+          <property role="3MwjfP" value="rosymide" />
         </node>
       </node>
       <node concept="3_J27D" id="a1TuyYuTQS" role="HFo83">
