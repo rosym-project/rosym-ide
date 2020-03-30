@@ -16,6 +16,8 @@
     <dependency reexport="false">e9471f54-3a97-4899-af0b-f4791d9ff0c1(Controller.build)</dependency>
     <dependency reexport="false">4691e682-eff5-47bd-bb71-48157bbb8cc7(Component.build)</dependency>
     <dependency reexport="false">c8eb9ca9-64f1-4b49-9730-34f074cf9d5b(Algorithm.build)</dependency>
+    <dependency reexport="false">e698fac9-be95-401f-abc7-69942a3f3953(KinematicChains.build)</dependency>
+    <dependency reexport="false">5276df98-ad74-4c83-b95e-80c2a30f443d(cosmo.dimensions.build)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:798100da-4f0a-421a-b991-71f8c50ce5d2:jetbrains.mps.build" version="0" />
@@ -28,8 +30,10 @@
     <module reference="4af8289a-2a94-435b-a0fb-faaee25165ff(BlockPortConnector.build)" version="0" />
     <module reference="4691e682-eff5-47bd-bb71-48157bbb8cc7(Component.build)" version="0" />
     <module reference="e9471f54-3a97-4899-af0b-f4791d9ff0c1(Controller.build)" version="0" />
+    <module reference="e698fac9-be95-401f-abc7-69942a3f3953(KinematicChains.build)" version="0" />
     <module reference="a5575761-df74-4205-bbe4-1d80fdd6a36f(MetaModelOfComputation.build)" version="0" />
     <module reference="3273a0fd-8d3c-4b17-945f-560992cef33c(RoSymIDE.build)" version="0" />
+    <module reference="5276df98-ad74-4c83-b95e-80c2a30f443d(cosmo.dimensions.build)" version="0" />
     <module reference="422c2909-59d6-41a9-b318-40e6256b250f(jetbrains.mps.ide.build)" version="0" />
   </dependencyVersions>
 </solution>

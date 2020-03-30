@@ -11,6 +11,8 @@
     <import index="mts6" ref="r:9579812f-12f1-4c7b-93f3-3f573d92d045(Controller.build)" />
     <import index="cenz" ref="r:43952558-28ac-4066-bf0b-48555bda5854(Component.build)" />
     <import index="empi" ref="r:3f1a5485-eae3-46de-964a-3276e8b8595b(Algorithm.build)" />
+    <import index="5dv1" ref="r:194a337e-1208-4e47-b397-de3f7aa7ad6b(KinematicChains.build)" />
+    <import index="223r" ref="r:46a08810-4c3e-47f2-8374-c3d57996f010(cosmo.dimensions.build.plugin)" />
   </imports>
   <registry>
     <language id="798100da-4f0a-421a-b991-71f8c50ce5d2" name="jetbrains.mps.build">
@@ -389,6 +391,46 @@
         </node>
       </node>
     </node>
+    <node concept="398rNT" id="47JhPdYHKpD" role="1l3spd">
+      <property role="TrG5h" value="dimensions_home" />
+      <node concept="55IIr" id="47JhPdYHKq8" role="398pKh">
+        <node concept="2Ry0Ak" id="47JhPdYHKqb" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="47JhPdYHKqg" role="2Ry0An">
+            <property role="2Ry0Am" value="dimensions-dsl" />
+            <node concept="2Ry0Ak" id="47JhPdYHKql" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="47JhPdYHKqq" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="47JhPdYHKqv" role="2Ry0An">
+                  <property role="2Ry0Am" value="dimensions" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="398rNT" id="47JhPdYHKr9" role="1l3spd">
+      <property role="TrG5h" value="kinematic_chain_home" />
+      <node concept="55IIr" id="47JhPdYHKrJ" role="398pKh">
+        <node concept="2Ry0Ak" id="47JhPdYHKrM" role="iGT6I">
+          <property role="2Ry0Am" value=".." />
+          <node concept="2Ry0Ak" id="47JhPdYHKrR" role="2Ry0An">
+            <property role="2Ry0Am" value="kinematic-chains-dsl" />
+            <node concept="2Ry0Ak" id="47JhPdYHKrW" role="2Ry0An">
+              <property role="2Ry0Am" value="build" />
+              <node concept="2Ry0Ak" id="47JhPdYHKs1" role="2Ry0An">
+                <property role="2Ry0Am" value="artifacts" />
+                <node concept="2Ry0Ak" id="47JhPdYHKs6" role="2Ry0An">
+                  <property role="2Ry0Am" value="KinematicChains" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2sgV4H" id="a1TuyYuTQm" role="1l3spa">
       <ref role="1l3spb" to="ffeo:1diLdO26mQ6" resolve="mpsStandalone" />
       <node concept="398BVA" id="a1TuyYuTQn" role="2JcizS">
@@ -429,6 +471,18 @@
       <ref role="1l3spb" to="cenz:2RDM3_ZXurU" resolve="Component" />
       <node concept="398BVA" id="7wiBUqZP0X_" role="2JcizS">
         <ref role="398BVh" node="7wiBUqZP0WF" resolve="component_home" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="47JhPdYHKoR" role="1l3spa">
+      <ref role="1l3spb" to="223r:44Dwksk3ZMb" resolve="dimensions" />
+      <node concept="398BVA" id="47JhPdYHKqx" role="2JcizS">
+        <ref role="398BVh" node="47JhPdYHKpD" resolve="dimensions_home" />
+      </node>
+    </node>
+    <node concept="2sgV4H" id="47JhPdYHKsq" role="1l3spa">
+      <ref role="1l3spb" to="5dv1:2RDM3_ZXwQQ" resolve="KinematicChains" />
+      <node concept="398BVA" id="47JhPdYHKsL" role="2JcizS">
+        <ref role="398BVh" node="47JhPdYHKr9" resolve="kinematic_chain_home" />
       </node>
     </node>
     <node concept="3jsGME" id="a1TuyYuTRa" role="3989C9">
@@ -535,6 +589,12 @@
         </node>
         <node concept="3_I8Xc" id="1O1itf12CSL" role="39821P">
           <ref role="3_I8Xa" to="cenz:2RDM3_ZXusk" resolve="Component" />
+        </node>
+        <node concept="3_I8Xc" id="47JhPdYHXPu" role="39821P">
+          <ref role="3_I8Xa" to="5dv1:2RDM3_ZXwRg" resolve="KinematicChains" />
+        </node>
+        <node concept="3_I8Xc" id="47JhPdYHXPQ" role="39821P">
+          <ref role="3_I8Xa" to="223r:44Dwksk3ZML" resolve="cosmo.dimensions" />
         </node>
         <node concept="m$_wl" id="a1TuyYuTRM" role="39821P">
           <ref role="m_rDy" node="a1TuyYuTR1" resolve="RoSymIDE" />
